@@ -17,5 +17,8 @@ print("Languages:\nPython\nC\nJavascript")
 print("Languages: \n\tPython\n\tC\n\tJavascript")
 
 favorite_language = 'python '
-favorite_language = favorite_language.rstrip()
-print(favorite_language)
+new_favorite_language = favorite_language.rstrip()
+print(new_favorite_language)
+
+nostarch_url = 'https://nostarch.com'
+simple_url = nostarch_url.removeprefix('https://') # removes the HTTPS from the nostarch_url
