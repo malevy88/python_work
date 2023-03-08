@@ -1,4 +1,6 @@
-guest_list = ['Kobe Bryant', 'Michael Jordan', 'Giannis Antemkoupmo', 'Virgil Abloh', 'Jay Z']
+#if you could invite anyone, living or deceased to dinner, who would you invite? Make a list that includes at least 3 people
+#you'd like to invite to dinner. Then use your list to prinmt a message to each person, inviting them to dinner.
+
 
 print(f"Hey {guest_list[0]}, where would you like to go get dinner from? Anywhere of your desire!")
 print(f"{guest_list[1]}, what is your favorite restaurant anywhere? We should give it a try together sometime!")
