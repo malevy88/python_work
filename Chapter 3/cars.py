@@ -15,4 +15,3 @@ print(sorted(cars)) #prints a temporary sorted list
 
 print("\nHere is the original list again:")
 print(cars)
-print(cars)
