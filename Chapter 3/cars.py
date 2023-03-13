@@ -15,3 +15,12 @@ print(sorted(cars)) #prints a temporary sorted list
 
 print("\nHere is the original list again:")
 print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+cars.reverse() #reverses order of list (not alphabetically)
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars)) #print's the length of cars list (4)
