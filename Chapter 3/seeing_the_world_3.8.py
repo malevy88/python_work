@@ -22,3 +22,6 @@ print(travel) #prints in original order again
 
 travel.sort() #sorts list in alphabetical order
 print(travel) #prints alphabetized list
+
+travel.reverse() #sorts the list in reverse alphabetical order
+print(travel) #prints reversed alphabetical list
