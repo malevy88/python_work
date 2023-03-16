@@ -16,3 +16,14 @@ for magician in magicians:
 
 print("Thanks you, everyone. That was a great magic show!") #prints after for loop since not indented (part of)
 
+#won't run since there is no indentation
+#magicians = ['alice', 'david', 'carolina']
+#for magician in magicians:
+#print(magician) 
+
+#this is a logical error
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
