@@ -27,3 +27,16 @@ for magician in magicians:
     print(f"{magician.title()}, that was a great trick!")
 print(f"I can't wait to see your next trick, {magician.title()}.\n")
 
+#another logical error, last line indented so Python runs all the valid code
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+    print("Thank you everyone, that was a great magic show!")
+
+
+#forgetting the colon (this won't run)
+#magicians = ['alice', 'david', 'carolina']
+#for magician in magicians
+  #  print(magicians)
