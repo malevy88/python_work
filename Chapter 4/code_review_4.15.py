@@ -5,4 +5,5 @@
 # character position. Don't use blank lines excessively in your program files.
 
 # check magicians.py for PEP 8 compliance
-# check
+# check pizzas_4.1.py for PEP 8 compliance
+# check my_pizza_your_pizza_4.11.py for PEP 8 compliance

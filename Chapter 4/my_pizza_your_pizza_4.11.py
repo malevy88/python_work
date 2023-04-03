@@ -1,8 +1,11 @@
-# start with program from 4.1. Mkae a copy of the list of the pizzas, and call it friend_pizzas. then do the following
+# start with program from 4.1. Mkae a copy of the list of the pizzas, and call 
+# it friend_pizzas. then do the following:
 # add a mew pizza to the original list
 # add a different pizza to the list friend_pizzas
-# prove you have 2 separate lists, print the message My favorite pizzas are; and then use a for loop to the print first list
-# print the message My friend's favorite pizzas are; and then use a for list to print the second list
+# prove you have 2 separate lists, print the message My favorite pizzas are; 
+# then use a for loop to the print first list
+# print the message My friend's favorite pizzas are; and then use a for list to 
+# print the second list
 # make sure each new pizza is stored in the appropiate list
 
 favorite_pizzas = ['sausage pizza', 'pepperoni pizza', 'cheese pizza']
