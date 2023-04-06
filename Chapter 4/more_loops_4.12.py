@@ -3,7 +3,7 @@
 
 my_foods = ['pizza', 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
-my_foods.append('cannoli') 
+my_foods.append('cannoli')
 friend_foods.append('ice cream')
 
 print("My favorites foods by far are:")

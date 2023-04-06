@@ -1,8 +1,8 @@
-#Tuples
-#like lists but cannot change list of items
+# Tuples
+# like lists but cannot change list of items
 
-dimensions = (200, 50) #tuples use parenthesis instead of sqauare brackets
-print(dimensions[0]) #can access indivdual items using indexes, like list
+dimensions = (200, 50)  # tuples use parenthesis instead of sqauare brackets
+print(dimensions[0])  # can access indivdual items using indexes, like list
 print(dimensions[1])
 
 """
@@ -12,18 +12,18 @@ dimensions[0] = 250 #reassigns 0 index to 250
 print(dimensions) #error out since we can't change the tuple
 """
 
-#looping through a tuple
+# looping through a tuple
 dimensions = (200, 50)
 for dimension in dimensions:
     print(dimension)
 
-#writing over a tuple
+# writing over a tuple
 dimensions = (200, 50)
 print('\nOriginal dimensions:')
 for dimension in dimensions:
     print(dimension)
 
-dimensions = (400, 100) #re-assigns the whole dimension variable
+dimensions = (400, 100)  # re-assigns the whole dimension variable
 print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
