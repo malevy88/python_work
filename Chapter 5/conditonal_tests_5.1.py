@@ -4,9 +4,18 @@
 
 # example 1
 favorite_shoe = 'nike'
-print('Is my favorite shoe == nike? I believe that will result in true!')
+print('Is my favorite shoe nike? I believe that will result in true!')
 print(favorite_shoe == 'nike')
+print("\nIs favorite shoe 'Adidas'? I predict false.")
+print(favorite_shoe == 'Adidas')
 
 # example 2
 favorite_soda = 'coke'
-print("What do you think my favoite soda is going to be?" "Do you think it's root")
+print("\nDo you think my favorite soda is root beer?")
+print(favorite_soda == 'root beer')
+print("\nActually, I believe it to be coca cola")
+print(favorite_soda == 'coke')
+
+# example 3
+favorite_color = 'black'
+print()
