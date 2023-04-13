@@ -1,10 +1,10 @@
 # test for equality and inequality with strings ✅
 # test using the title() method ✅
 # numerical tests involving equality/inequality, greater than and less than,
-# greater than or equal to, and less than or equal to
+# greater than or equal to, and less than or equal to ✅
 # tests using the AND keyword and the OR keyword
-# test whether an item is in a list
-# test whether an item is not in a list
+# test whether an item is in a list ✅
+# test whether an item is not in a list ✅
 
 # string and title example
 full_name = 'marcus allen'
@@ -22,3 +22,9 @@ print("\nWhat will 35 >= 36 result as? True or false")
 print(age_0 >= age_1)
 print("What about reversed? 35 <= 36?")
 print(age_0 <= age_1)
+
+shoe_brands = ['nike', 'adidas', 'new balance']
+print("\nIs Saucony in the listed shoe brands?")
+print('saucony' in shoe_brands)
+print("\nWhat about Nike? Is that on the list")
+print('nike' in shoe_brands)
