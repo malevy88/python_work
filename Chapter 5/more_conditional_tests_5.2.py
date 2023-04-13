@@ -10,3 +10,8 @@ full_name = 'marcus allen'
 
 print('Is Marcus allen equal to marcus allen')
 print(full_name == 'Marcus Allen')
+print("It appears that it isn't!")
+
+print("\nWhat if we changed it to uppercase?")
+new_full_name = full_name.title()
+print(new_full_name)
