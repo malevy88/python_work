@@ -7,11 +7,17 @@
 # if person at least 20 but less than 65, print they're an adult
 # if person 65 or older print they're an elder
 
-age = 32
+age = 66
 
 if age < 2:
     print("You're just a baby!")
 elif age < 4:
     print("You're just a toddler!")
 elif age < 13:
-    print("")
+    print("You're just a kid!")
+elif age < 20:
+    print("You're just a teenager!")
+elif age < 65:
+    print("You're an adult now.")
+else:
+    print("You're an elder now")
