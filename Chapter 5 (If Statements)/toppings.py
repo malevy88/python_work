@@ -54,7 +54,6 @@ print("\nFinished making your pizza!")
 
 # checking that a list is not empty
 requested_toppings = []
-
 # runs the conditional test to see if list is empty, returns false so executes
 # the else statement
 if requested_toppings:
@@ -63,3 +62,17 @@ if requested_toppings:
     print("\nFinished making your pizza!")
 else:
     print("Are you sure you just want a plain pizza?")
+
+# using multiple lists
+
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni',
+                      'pineapple', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"Sorry, we don't have {requested_topping}")
+print("\nFinished making your pizza!")
