@@ -8,5 +8,5 @@ user_names = []
 if user_names:
     for user_name in user_names:
         print(f"Hello {user_name}, thanks for logging in")
-    else:
-        print("We need to fid some users!")
+else:
+    print('We need to find some users!')
