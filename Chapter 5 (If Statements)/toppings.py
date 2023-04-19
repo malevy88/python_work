@@ -64,7 +64,6 @@ else:
     print("Are you sure you just want a plain pizza?")
 
 # using multiple lists
-
 available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni',
                       'pineapple', 'extra cheese']
 
