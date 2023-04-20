@@ -9,6 +9,17 @@
 # a copy of current_users containing the lowercase versions of all exisiting
 # users.)
 
-current_users = ['jon', 'marcus', 'malevy', 'tommy', 'lindsey']
+current_users = ['Michael', 'tommy', 'grant', 'Michelle', 'marcus']
+new_users = ['Karen', 'lindsey', 'michael', 'Marcus', 'cole']
 
-new_users = ['shirley', 'marcus', 'katrina', 'marco', 'lindsey']
+
+# creates a copy of current_users list and makes it lower case (need practice)
+current_users_lower = [user.lower() for user in current_users]
+
+for new_user in new_users:
+    # correct answer below
+    if new_user.lower() in current_users_lower:
+        # if new_user == current_users: (original answer I put)
+        print("Sorry " + new_user + ", that username is already taken")
+    else:
+        print("Hello " + new_user + ", that username is available!")
