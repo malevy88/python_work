@@ -15,8 +15,8 @@ glossary = {
     'comments': 'code lines that will not be executed',
 }
 
-print(f"Tuple: {glossary['tuple']}.")
-print(f"List: {glossary['list']}.")
-print(f"Variable: {glossary['variable']}.")
-print(f"F-Strings: {glossary['f-strings']}.")
-print(f"Comments: {glossary['comments']}.")
+print(f"Tuple: {glossary['tuple']}. \n")
+print(f"List: {glossary['list']}. \n")
+print(f"Variable: {glossary['variable']}. \n")
+print(f"F-Strings: {glossary['f-strings']}. \n")
+print(f"Comments: {glossary['comments']}. \n")
