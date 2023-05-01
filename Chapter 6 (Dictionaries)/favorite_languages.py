@@ -16,3 +16,16 @@ for name, language in favorite_languages.items():
 # looping through all the keys in a dictionary
 for name in favorite_languages.keys():
     print(name.title())
+
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+    print(f"Hi {name.title()}.")
+
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
+
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take our poll!")
+
+# looping through a dictionary's keys in a particular order
