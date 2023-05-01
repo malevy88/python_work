@@ -8,15 +8,20 @@
 # pair in your output.
 
 glossary = {
-    'tuple': 'used to store mulitple items in a single variable (cant change)',
-    'list': 'used to store multiple items in a single variable (can change)',
-    'variable': 'symbolic name that is a reference or pointer to an object',
-    'f-strings': 'embedded expressions inside string literals',
-    'comments': 'code lines that will not be executed',
+    'Tuple': 'used to store mulitple items in a single variable (cant change)',
+    'List': 'used to store multiple items in a single variable (can change)',
+    'Variable': 'symbolic name that is a reference or pointer to an object',
+    'F-Strings': 'embedded expressions inside string literals',
+    'Comments': 'code lines that will not be executed',
 }
 
-print(f"Tuple: {glossary['tuple']}. \n")
-print(f"List: {glossary['list']}. \n")
-print(f"Variable: {glossary['variable']}. \n")
-print(f"F-Strings: {glossary['f-strings']}. \n")
-print(f"Comments: {glossary['comments']}. \n")
+print(f"Tuple: {glossary['Tuple']}. \n")
+print(f"List: {glossary['List']}. \n")
+print(f"Variable: {glossary['Variable']}. \n")
+print(f"F-Strings: {glossary['F-Strings']}. \n")
+print(f"Comments: {glossary['Comments']}. \n")
+
+# added the second method (tab on second line)
+for word, definition in glossary.items():
+    print(f"\nWord: {word}")
+    print(f"\tDefinition: {definition}")
