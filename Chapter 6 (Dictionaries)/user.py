@@ -1,4 +1,4 @@
-# looping through key value pairs
+# looping through all key-value pairs
 
 # dictionary to store persons username, first and last names
 user_0 = {
