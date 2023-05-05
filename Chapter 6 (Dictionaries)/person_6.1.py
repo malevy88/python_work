@@ -4,13 +4,13 @@
 # print each piece of information stored in your dictionary
 
 best_friend = {
-    'first name': 'Deandre',
+    'first_name': 'Deandre',
     'last_name': 'Wilson',
     'age': 33,
     'city': 'Milwaukee',
 }
 
-print(best_friend['first name'])
+print(best_friend['first_name'])
 print(best_friend['last_name'])
 print(best_friend['city'])
 print(best_friend['age'])
