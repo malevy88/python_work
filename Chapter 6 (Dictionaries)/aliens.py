@@ -25,3 +25,40 @@ print("...")
 
 # show how many aliens have been created.
 print(f"Total number of aliens: {len(aliens)}")
+
+# make an empty list for storing aliens.
+aliens = []
+
+
+# changes the first 3 aliens to yellow, 10 points, and medium speed
+# make 30 green aliens.
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+
+# show the first 5 aliens.
+for alien in aliens[:5]:
+    print(alien)
+print("...")
+
+# makes 30 aliens
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+
+# changes the yellow aliens to red with speed and point increase
+for alien in aliens[0:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+    elif alien['color'] == 'yellow':
+        alien['color'] = 'red'
+        alien['speed'] = 'fast'
+        alien['points'] = 15
