@@ -13,4 +13,4 @@ favorite_places = {
 }
 
 for name, location in favorite_places.items():
-    print(f"{name.title()}'s favorite place to travel is {location}.")
+    print(f"{name}'s favorite place to travel is {location}.")
