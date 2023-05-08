@@ -20,9 +20,16 @@ friend_1 = {
 
 friend_2 = {
     'first_name': 'Angus',
-    'last name': 'Barsch',
+    'last_name': 'Barsch',
     'age': 31,
     'city': 'Los Angeles',
 }
 
 people = [friend_0, friend_1, friend_2]
+
+for friend in people:
+    full_name = friend['first_name'] + " " + friend['last_name']
+    friend_age = friend['age']
+    friend_city = friend['city']
+    print(f"My friend, {full_name} is from {friend_city}, and is {friend_age} "
+          "years old!")
