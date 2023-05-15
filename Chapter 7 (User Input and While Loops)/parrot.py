@@ -24,6 +24,6 @@ while active:
     message = input(prompt)
 
     if message == 'quit':
-        active = False
+        active = False  # tells the program to set active to false, stopping it
     else:
         print(message)
