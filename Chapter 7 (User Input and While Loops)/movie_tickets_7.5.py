@@ -12,6 +12,8 @@ while active:
     age = input(prompt)
     if age == 'quit':
         active = False
+    elif int(age) == 0:
+        print("Please enter a valid age.")
     elif int(age) <= 3:
         print("\nYour ticket is free.")
     elif int(age) <= 12:
