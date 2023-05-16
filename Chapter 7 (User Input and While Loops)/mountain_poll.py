@@ -19,6 +19,6 @@ while polling_active:
         polling_active = False
 
     # polling is complete. show the results.
-    print("n--- Poll Results ---")
+    print("\n--- Poll Results ---")
     for name, response in responses.items():
         print(f"{name} would you like to climb {response}.")
