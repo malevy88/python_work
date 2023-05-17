@@ -11,4 +11,11 @@ sandwich_orders = ['BLT', 'Philly Cheese Steak', 'Lobster Roll', 'Hot Ham']
 finished_sandwiches = []
 
 while sandwich_orders:
-    current_order = sandwich_orders.pop()
+    sandwich = sandwich_orders.pop(0)
+    print(f"I made your {sandwich}.")
+    finished_sandwiches.append(sandwich)
+
+
+print("All sandwiches are finished.")
+print(sandwich_orders)
+print(finished_sandwiches)
