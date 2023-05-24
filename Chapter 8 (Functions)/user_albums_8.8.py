@@ -1,3 +1,9 @@
+# start with your program from exercise 8-7.
+# write a while loop that allows users to enter an album's artist and title.
+# once you have that information, call make_album() with the user's input and
+# print the dictionary that's created.
+# be sure to include a quit value in the while loop.
+
 def make_album(artist_name, album_name, number_of_songs=''):
     """Return a dictionary of information about an album."""
     album = {'artist': artist_name, 'album': album_name}
