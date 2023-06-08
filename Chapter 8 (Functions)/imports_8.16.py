@@ -10,3 +10,15 @@ from module_name import function_name as fn
 import module_name as mn
 from module_name import *
 """
+
+from book import favorite_book
+from book import favorite_book as fb
+from book import *
+import book as bk
+import book
+
+favorite_book('Python Crash Course')
+fb('The Phoenix Project')
+bk.favorite_book('Learning How to Learn')
+favorite_book('Never Split the Difference')
+book.favorite_book('Fierce People')
