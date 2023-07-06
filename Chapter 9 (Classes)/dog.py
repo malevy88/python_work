@@ -21,5 +21,10 @@ class Dog:
 
 my_dog = Dog('Willie', 6)
 
-print(f"My dog's name is {my_dog.name}.")
+print(f"My dog's name is {my_dog.name}.")  # accessing attributes
 print(f"My dog is {my_dog.age} years old.")
+
+# calling methods
+my_dog = Dog('Willie', 6)
+my_dog.sit()
+my_dog.roll_over()
